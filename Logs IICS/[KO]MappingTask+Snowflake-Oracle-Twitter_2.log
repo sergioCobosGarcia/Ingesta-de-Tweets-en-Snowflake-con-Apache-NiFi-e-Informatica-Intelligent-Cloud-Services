@@ -1,0 +1,215 @@
+Task Name: MappingTask Snowflake-Oracle-Twitter_MappingTask Snowflake-Oracle-Twitter
+Agent Group Id: 010ABN25000000000002
+Agent Group Name: DESKTOP-TBQGPKB
+Agent Id: 010ABN08000000000002
+Agent Name: DESKTOP-TBQGPKB
+10/12/2020 17:23:45 **** Importing Connection: Conn_010ABN0B000000000005 ...
+10/12/2020 17:23:45 **** Importing Connection: Conn_010ABN0B000000000002 ...
+10/12/2020 17:23:45 **** Importing Source Definition: TWITTER ...
+10/12/2020 17:23:45 **** Importing Target Definition: TWITTER ...
+10/12/2020 17:23:45 **** Importing SessionConfig: default_session_config ...
+    <Warning> :  The Error Log DB Connection value should have Relational: as the prefix.
+    <Warning> :  Invalid value  for attribute Error Log DB Connection. Will use the default value 
+    Validating Source Definition  TWITTER...
+    Validating Target Definition  TWITTER...
+10/12/2020 17:23:45 **** Importing Mapping: Mapping0 ...
+Validating transformations of mapping Mapping0...
+Validating mapping variable(s).
+    <Warning> :  Invalid table attribute: Exec SQL
+10/12/2020 17:23:45 **** Importing Workflow: wf_mtt_010ABN0Z000000000006 ...
+    <Warning> :  The value entered is not a valid integer.
+    <Warning> :  Invalid value NO for attribute Fail task after wait time. Will use the default value 
+[Summary for Application Source Qualifier Source]
+     Is a new repartition point.
+     Partition type changed from None to Pass Through.
+Successfully extracted session instance [s_mtt_010ABN0Z000000000006].  Starting repository sequence id is [793759508]
+======================================================================
+DIRECTOR> VAR_27085 [2020-10-12 17:23:46.344] Parameter file [D:\Informatica Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010ABN0Z000000000006.param] is opened for [session [wf_mtt_010ABN0Z000000000006.s_mtt_010ABN0Z000000000006]].
+DIRECTOR> VAR_27062 [2020-10-12 17:23:46.345] Warning! Cannot find section for worklet [wf_mtt_010ABN0Z000000000006] and folder [] in parameter file [D:\Informatica Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_010ABN0Z000000000006.param].
+DIRECTOR> VAR_27028 [2020-10-12 17:23:46.346] Use override value [s_mtt_010ABN0Z000000000006_2_error.csv] for user-defined workflow/worklet variable:[$ErrorFileName].
+DIRECTOR> VAR_27028 [2020-10-12 17:23:46.346] Use override value [1970-01-01] for user-defined workflow/worklet variable:[$LastRunDate].
+DIRECTOR> VAR_27028 [2020-10-12 17:23:46.346] Use override value [1970-01-01 00:00:00] for user-defined workflow/worklet variable:[$LastRunTime].
+DIRECTOR> VAR_27028 [2020-10-12 17:23:46.347] Use override value [s_mtt_010ABN0Z000000000006_10_12_2020_15_23_success.csv] for user-defined workflow/worklet variable:[$SuccessFileName].
+DIRECTOR> TM_6014 [2020-10-12 17:23:46.347] Initializing session [s_mtt_010ABN0Z000000000006] at [Mon Oct 12 17:23:46 2020].
+DIRECTOR> TM_6683 [2020-10-12 17:23:46.347] Repository Name: [XMLRepository]
+DIRECTOR> TM_6684 [2020-10-12 17:23:46.347] Server Name: [rDTM]
+DIRECTOR> TM_6686 [2020-10-12 17:23:46.347] Folder: []
+DIRECTOR> TM_6685 [2020-10-12 17:23:46.347] Workflow: [wf_mtt_010ABN0Z000000000006] Run Instance Name: [] Run Id: [0]
+DIRECTOR> TM_6101 [2020-10-12 17:23:46.347] Mapping name: Mapping0.
+DIRECTOR> TM_6964 [2020-10-12 17:23:46.348] Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+DIRECTOR> TM_6703 [2020-10-12 17:23:46.353] Session [s_mtt_010ABN0Z000000000006] is run by 64-bit Integration Service  [], version [9.1.0 HotFix1], build [0627].
+MANAGER> PETL_24058 [2020-10-12 17:23:46.360] Running Partition Group [1].
+MANAGER> PETL_24000 [2020-10-12 17:23:46.360] Parallel Pipeline Engine initializing.
+MANAGER> PETL_24001 [2020-10-12 17:23:46.361] Parallel Pipeline Engine running.
+MANAGER> PETL_24003 [2020-10-12 17:23:46.361] Initializing session run.
+MAPPING> CMN_1569 [2020-10-12 17:23:46.367] Server Mode: [UNICODE]
+MAPPING> CMN_1570 [2020-10-12 17:23:46.367] Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+MAPPING> TM_6151 [2020-10-12 17:23:46.367] The session sort order is [Binary].
+MAPPING> TM_6185 [2020-10-12 17:23:46.367] Warning. Code page validation is disabled in this session.
+MAPPING> CMN_65083 [2020-10-12 17:23:46.367] Current Timezone:[UTC +1:0]
+MAPPING> CMN_65085 [2020-10-12 17:23:46.367] Current Process ID:[22988]
+MAPPING> TM_6155 [2020-10-12 17:23:46.367] Using HIGH precision processing.
+MAPPING> TM_6180 [2020-10-12 17:23:46.367] Deadlock retry logic will not be implemented.
+MAPPING> TM_6187 [2020-10-12 17:23:46.367] Session target-based commit interval is [10000].
+MAPPING> PMJVM_42020 [2020-10-12 17:23:46.382] [INFO] Loaded library : D:\INFORM~1\jdk\jre\bin\server\jvm.dll.
+MAPPING> PMJVM_42014 [2020-10-12 17:23:46.384] [DEBUG] The value specified for option JVMOption1 is not valid and will be ignored.
+MAPPING> PMJVM_42014 [2020-10-12 17:23:46.384] [DEBUG] The value specified for option JVMOption2 is not valid and will be ignored.
+MAPPING> PMJVM_42014 [2020-10-12 17:23:46.384] [DEBUG] The value specified for option JVMOption3 is not valid and will be ignored.
+MAPPING> PMJVM_42014 [2020-10-12 17:23:46.384] [DEBUG] The value specified for option JVMOption4 is not valid and will be ignored.
+MAPPING> PMJVM_42014 [2020-10-12 17:23:46.384] [DEBUG] The value specified for option JVMOption5 is not valid and will be ignored.
+MAPPING> PMJVM_42009 [2020-10-12 17:23:47.192] [INFO] Created Java VM successfully.
+MAPPING> SDKS_38029 [2020-10-12 17:23:47.531] Loaded plug-in 605501: [plugin description].
+MAPPING> SDKS_38024 [2020-10-12 17:23:47.635] Plug-in 605501 initialization complete.
+MAPPING> SDKS_38016 [2020-10-12 17:23:47.635] Reader SDK plug-in intialization complete.
+MAPPING> TM_6307 [2020-10-12 17:23:47.635] DTM error log disabled. 
+MAPPING> TE_7022 [2020-10-12 17:23:47.635] TShmWriter: Initialized
+MAPPING> TM_6007 [2020-10-12 17:23:49.025] DTM initialized successfully for session [s_mtt_010ABN0Z000000000006]
+DIRECTOR> PETL_24033 [2020-10-12 17:23:49.026] All DTM Connection Info: [<NONE>].
+MANAGER> PETL_24004 [2020-10-12 17:23:49.026] Starting pre-session tasks. : (Mon Oct 12 17:23:49 2020)
+PRE-SESS> DBG_21349 [2020-10-12 17:23:49.031] No load constraints for Target [TWITTER]. It does not reference any primary table from the same active source or transaction generator.
+PRE-SESS> DBG_21104 [2020-10-12 17:23:49.031] Determining truncate order for [TWITTER] [instance id:2]
+PRE-SESS> DBG_21531 [2020-10-12 17:23:49.031]     Truncate order for [TWITTER] [instance id:2] determined successfully
+PRE-SESS> CMN_1021 [2020-10-12 17:23:50.209] Database driver event...
+CMN_1021 [ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - R34;Host=localhost;ServiceName=xepdb1;Port=1521;UID=sergio;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;AllowedOpenSSLVersions=1.0.2]. userid = [sergio]
+DBMS Name:	Oracle
+DBMS Version:	18.00.0000 Oracle 18.0.0.0.0
+Driver Name:	dwora28.dll
+Driver Version:	08.02.2219 (B0459, U0314)]
+
+PRE-SESS> WRT_8365 [2020-10-12 17:23:50.209] Starting truncate for target table [SERGIO.TWITTER]. : (Mon Oct 12 17:23:50 2020)
+PRE-SESS> WRT_8445 [2020-10-12 17:23:50.209] SQL statement for truncate is: [TRUNCATE TABLE SERGIO.TWITTER].
+PRE-SESS> WRT_8022 [2020-10-12 17:23:50.350] Truncate table for table [SERGIO.TWITTER] succeeded. : (Mon Oct 12 17:23:50 2020)
+MANAGER> PETL_24027 [2020-10-12 17:23:50.415] Pre-session task completed successfully. : (Mon Oct 12 17:23:50 2020)
+DIRECTOR> PETL_24006 [2020-10-12 17:23:50.415] Starting data movement.
+MAPPING> TM_6660 [2020-10-12 17:23:50.416] Total Buffer Pool size is 14794240 bytes and Block size is 819680 bytes.
+READER_1_1_1> SNOWFLAKECLOUDDATAWAREHOUSE_10000 [2020-10-12 17:24:14.398] [INFO] El motor de tiempo de ejecución utiliza la siguiente URL de JDBC para conectarse a Snowflake: [jdbc:snowflake://OA59882.west-europe.azure.snowflakecomputing.com/?warehouse=PC_INFORMATICA_WH&role=PC_INFORMATICA_ROLE&SSL=on&application=INFA_IICS]
+WRITER_1_*_1> WRT_8146 [2020-10-12 17:24:15.157] Writer: Target is database [odbc://dbtype=Oracle;host=localhost;port=1521;database=xepdb1], user [sergio], bulk mode [ON]
+WRITER_1_*_1> WRT_8106 [2020-10-12 17:24:15.157] Warning! Bulk Mode session - recovery is not guaranteed.
+WRITER_1_*_1> CMN_1021 [2020-10-12 17:24:16.320] Database driver event...
+CMN_1021 [ODBC Event Using array fetches.
+ODBC Event Using Array Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - R34;Host=localhost;ServiceName=xepdb1;Port=1521;UID=sergio;AS=6000000;EBL=1;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;AllowedOpenSSLVersions=1.0.2]. userid = [sergio]
+DBMS Name:	Oracle
+DBMS Version:	18.00.0000 Oracle 18.0.0.0.0
+Driver Name:	dwora28.dll
+Driver Version:	08.02.2219 (B0459, U0314)]
+
+WRITER_1_*_1> WRT_8221 [2020-10-12 17:24:16.320] Target database connection [Conn_010ABN0B000000000005] code page: [UTF-8 encoding of Unicode]
+WRITER_1_*_1> WRT_8124 [2020-10-12 17:24:16.322] Target Table TWITTER :SQL INSERT statement:
+INSERT INTO SERGIO.TWITTER(CREATED_AT,ID,TEXT,LANG)  VALUES ( ?, ?, ?, ?) 
+WRITER_1_*_1> WRT_8020 [2020-10-12 17:24:16.322] No column marked as primary key for table [TWITTER]. UPDATEs Not Supported.
+WRITER_1_*_1> WRT_8270 [2020-10-12 17:24:16.635] Target connection group #1 consists of target(s) [TWITTER]
+WRITER_1_*_1> WRT_8003 [2020-10-12 17:24:16.635] Writer initialization complete.
+WRITER_1_*_1> WRT_8005 [2020-10-12 17:24:16.636] Writer run started.
+WRITER_1_*_1> WRT_8158 [2020-10-12 17:24:16.636] 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Mon Oct 12 17:24:16 2020
+
+Target tables:
+
+     TWITTER
+
+
+SDKTempThread> CMN_1761 [2020-10-12 17:24:18.473] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+SDKTempThread> JAVA PLUGIN_1762 [2020-10-12 17:24:18.473] [ERROR] oct 12, 2020 5:24:18 PM net.snowflake.client.core.SFStatement executeQueryInternal
+GRAVE: Exception creating result
+java.lang.ExceptionInInitializerError
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at sun.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(UnsafeFieldAccessorFactory.java:43)
+	at sun.reflect.ReflectionFactory.newFieldAccessor(ReflectionFactory.java:156)
+	at java.lang.reflect.Field.acquireFieldAccessor(Field.java:1088)
+	at java.lang.reflect.Field.getFieldAccessor(Field.java:1069)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at net.snowflake.client.jdbc.internal.apache.arrow.memory.rounding.DefaultRoundingPolicy.<init>(DefaultRoundingPolicy.java:43)
+	at net.snowflake.client.jdbc.internal.apache.arrow.memory.rounding.DefaultRoundingPolicy.<clinit>(DefaultRoundingPolicy.java:37)
+	at net.snowflake.client.jdbc.internal.apache.arrow.memory.RootAllocator.<init>(RootAllocator.java:40)
+	at net.snowflake.client.jdbc.internal.apache.arrow.memory.RootAllocator.<init>(RootAllocator.java:36)
+	at net.snowflake.client.jdbc.SnowflakeResultSetSerializableV1.create(SnowflakeResultSetSerializableV1.java:590)
+	at net.snowflake.client.core.SFResultSetFactory.getResultSet(SFResultSetFactory.java:34)
+	at net.snowflake.client.core.SFStatement.executeQueryInternal(SFStatement.java:291)
+	at net.snowflake.client.core.SFStatement.executeQuery(SFStatement.java:202)
+	at net.snowflake.client.core.SFStatement.execute(SFStatement.java:882)
+	at net.snowflake.client.jdbc.SnowflakeStatementV1.executeQueryInternal(SnowflakeStatementV1.java:273)
+	at net.snowflake.client.jdbc.SnowflakeStatementV1.executeQuery(SnowflakeStatementV1.java:167)
+	at com.infa.adapter.snowflake.runtime.adapter.read.SnowFlakeDirectReader.read(SnowFlakeDirectReader.java:301)
+	at com.infa.adapter.snowflake.runtime.adapter.SnowFlakeTableDataAdapter.read(SnowFlakeTableDataAdapter.java:237)
+	at com.informatica.cci.runtime.databuffer.impl.CReadResultSetThread.run(CReadResultSetThre
+SDKTempThread> CMN_1761 [2020-10-12 17:24:18.475] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+SDKTempThread> JAVA PLUGIN_1762 [2020-10-12 17:24:18.475] [ERROR] ad.java:38)
+Caused by: java.lang.NullPointerException
+	at net.snowflake.client.jdbc.internal.io.netty.buffer.PooledByteBufAllocatorL$InnerAllocator.<init>(PooledByteBufAllocatorL.java:145)
+	at net.snowflake.client.jdbc.internal.io.netty.buffer.PooledByteBufAllocatorL.<init>(PooledByteBufAllocatorL.java:49)
+	at net.snowflake.client.jdbc.internal.apache.arrow.memory.AllocationManager.<clinit>(AllocationManager.java:53)
+	... 20 more
+
+READER_1_1_1> SNOWFLAKECLOUDDATAWAREHOUSE_10000 [2020-10-12 17:24:18.612] [INFO] El motor de tiempo de ejecución utiliza la siguiente consulta SQL para leer los datos: [SELECT "CREATED_AT", "ID", "TEXT", "LANG" FROM "TWITTER"]
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.612] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> SNOWFLAKECLOUDDATAWAREHOUSE_10000 [2020-10-12 17:24:18.612] [FATAL] No se pudieron leer los datos del origen debido al siguiente error: [JDBC driver internal error: exception creating result java.lang.ExceptionInInitializerError at sun.misc.Unsafe.ensureClassInitialized(Native Method).]
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.614] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.614] [ERROR] com.informatica.cci.cloud.client.impl.CCIClientExceptionImpl: Unable to get result data: Adapter read method has returned failure.
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.614] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.614] [ERROR] 	at com.informatica.cci.cloud.client.impl.CCIRuntimeDataClientImpl.readData(CCIRuntimeDataClientImpl.java:276)
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.615] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.615] [ERROR] 	at com.informatica.cloud.api.adapter.cci.reader.CCIRdrPartitionDriver.run(CCIRdrPartitionDriver.java:161)
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.616] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.616] [ERROR] Caused by: com.informatica.cci.runtime.internal.utils.impl.CExceptionImpl: Unable to get result data: Adapter read method has returned failure.
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.616] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.616] [ERROR] 	at com.informatica.cci.runtime.databuffer.impl.CResultSetImpl.next(CResultSetImpl.java:125)
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.616] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.617] [ERROR] 	at com.informatica.cci.cloud.client.impl.CCIRuntimeDataClientImpl.readData(CCIRuntimeDataClientImpl.java:237)
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.617] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.617] [ERROR] 	... 1 more
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.618] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.618] [ERROR] com.informatica.powercenter.sdk.SDKException: Unable to get result data: Adapter read method has returned failure.
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.619] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> JAVA PLUGIN_1762 [2020-10-12 17:24:18.619] [ERROR] 	at com.informatica.cloud.api.adapter.cci.reader.CCIRdrPartitionDriver.run(CCIRdrPartitionDriver.java:164)
+READER_1_1_1> CMN_1761 [2020-10-12 17:24:18.619] Timestamp Event: [Mon Oct 12 17:24:18 2020]
+READER_1_1_1> SDKS_38200 [2020-10-12 17:24:18.619] Partition-level [Source]: Plug-in #605501 failed in run().
+TRANSF_1_1_1> DBG_21216 [2020-10-12 17:24:18.619] Finished transformations for Source Qualifier [Source]. Total errors [0] 
+WRITER_1_*_1> WRT_8167 [2020-10-12 17:24:18.620] Start loading table [TWITTER] at: Mon Oct 12 17:24:17 2020
+WRITER_1_*_1> WRT_8168 [2020-10-12 17:24:18.620] End loading table [TWITTER] at: Mon Oct 12 17:24:17 2020
+WRITER_1_*_1> WRT_8035 [2020-10-12 17:24:18.620] Load complete time: Mon Oct 12 17:24:17 2020
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: TWITTER (Instance Name: [TWITTER])
+WRT_8044 No data loaded for this target
+
+
+
+WRITER_1_*_1> WRT_8043 [2020-10-12 17:24:18.620] *****END LOAD SESSION*****
+WRITER_1_*_1> WRT_8006 [2020-10-12 17:24:18.703] Writer run completed.
+MANAGER> PETL_24031 [2020-10-12 17:24:18.708] 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [Source] has completed.
+	Total Run Time = [1.982698] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [Source] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [TWITTER] has completed. The total run time was insufficient for any meaningful statistics.
+
+MANAGER> PETL_24005 [2020-10-12 17:24:18.807] Starting post-session tasks. : (Mon Oct 12 17:24:18 2020)
+MANAGER> PETL_24029 [2020-10-12 17:24:18.893] Post-session task completed successfully. : (Mon Oct 12 17:24:18 2020)
+MAPPING> SDKS_38025 [2020-10-12 17:24:23.766] Plug-in 605501 deinitialized and unloaded with status [-1].
+MAPPING> SDKS_38018 [2020-10-12 17:24:23.766] Reader SDK plug-ins deinitialized with status [-1].
+MAPPING> TM_6018 [2020-10-12 17:24:23.767] The session completed with [0] row transformation errors. 
+MANAGER> PETL_24002 [2020-10-12 17:24:23.897] Parallel Pipeline Engine finished.
+DIRECTOR> PETL_24013 [2020-10-12 17:24:23.959] Session run completed with failure.
+DIRECTOR> TM_6022 [2020-10-12 17:24:23.959] 
+
+SESSION LOAD SUMMARY
+================================================
+
+DIRECTOR> TM_6252 [2020-10-12 17:24:23.959] Source Load Summary.
+DIRECTOR> CMN_1740 [2020-10-12 17:24:23.959] Table: [Source] (Instance Name: [Source])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+DIRECTOR> TM_6253 [2020-10-12 17:24:23.959] Target Load Summary.
+DIRECTOR> CMN_1740 [2020-10-12 17:24:23.959] Table: [TWITTER] (Instance Name: [TWITTER])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+DIRECTOR> TM_6023 [2020-10-12 17:24:23.959] 
+===================================================
+
+DIRECTOR> TM_6020 [2020-10-12 17:24:23.959] Session [s_mtt_010ABN0Z000000000006] completed at [Mon Oct 12 17:24:23 2020].
