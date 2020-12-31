@@ -1,3 +1,3 @@
 # Ingesta de Tweets en Snowflake con Apache NiFi e Informatica Intelligent Cloud Services
 
-https://medium.com/@sergiocobossergiocobos/ingesta-masiva-de-tweets-en-snowflake-con-apache-nifi-y-informatica-intelligent-cloud-services-fc98a254112f
+https://medium.com/dev-genius/ingest-tweets-on-snowflake-with-apache-nifi-and-informatica-intelligent-cloud-services-b4196af438ec
